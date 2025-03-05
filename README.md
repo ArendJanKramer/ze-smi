@@ -9,7 +9,9 @@ Built using libze and libze-dev
  * 6.11 kernel or newer, please use most recent kernel from gitlab.freedesktop.org/drm/xe/kernel for more features on Battlemage, such as temperature monitoring.
 
 ## Build
+```
 g++ -o ze-smi main.cpp -I/usr/local/include/level_zero -L/usr/local/lib -lze_loader -std=c++17 -pthread
+```
 
 ## Run
 Use `sudo` for more details!
