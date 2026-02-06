@@ -11,6 +11,7 @@ Built using libze and libze-dev
 ## Build
 ```
 g++ -o ze-smi main.cpp -I/usr/local/include/level_zero -L/usr/local/lib -lze_loader -std=c++17 -pthread
+gcc ze_xe_cores.c -o ze_xe_cores -lze_loader
 ```
 
 ## Run
